@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.601" height="53" viewBox="0 0 35.601 53">
+  <defs>
+    <filter id="Path_5721" x="0" y="0" width="35.601" height="53" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#160303" flood-opacity="0.659"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="facebook-social-logo-svgrepo-com" transform="translate(3.258 9)">
+    <g transform="matrix(1, 0, 0, 1, -3.26, -9)" filter="url(#Path_5721)">
+      <path id="Path_5721-2" data-name="Path 5721" d="M9.554,6.754c0-.218.03-.689.091-1.411a5.258,5.258,0,0,1,.827-2.273A6.453,6.453,0,0,1,12.837.941,9.612,9.612,0,0,1,17.555,0h5.788V6.307H19.105a1.732,1.732,0,0,0-1.164.468,1.278,1.278,0,0,0-.53.88V11.58h5.93c-.062.768-.13,1.515-.209,2.236L22.9,15.722q-.141.966-.283,1.791H17.369V35H9.554V17.511H5.742V11.58H9.554Z" transform="translate(3.26 9)" fill="#2e6cff"/>
+    </g>
+  </g>
+</svg>

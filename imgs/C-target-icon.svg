@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.97" height="128.697" viewBox="0 0 116.97 128.697">
+  <defs>
+    <filter id="Path_2606" x="0" y="80.871" width="116.97" height="43.51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="mEET" x="16.722" y="81.697" width="84" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#0a0101" flood-opacity="0.722"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="TargEt" x="6.114" y="57.583" width="105" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="C-target-icon" transform="translate(-522.582 -1266)">
+    <g id="Group_3469" data-name="Group 3469" transform="translate(507.989 1351.797)">
+      <g id="Group_1066" data-name="Group 1066" transform="translate(-19)">
+        <g transform="matrix(1, 0, 0, 1, 33.59, -85.8)" filter="url(#Path_2606)">
+          <path id="Path_2606-2" data-name="Path 2606" d="M4.249,0H93.721A4.25,4.25,0,0,1,97.97,4.251V20.259a4.25,4.25,0,0,1-4.249,4.251H4.249A4.25,4.25,0,0,1,0,20.259V4.251A4.25,4.25,0,0,1,4.249,0Z" transform="translate(9.5 90.37)" fill="#ecc70f" stroke="#bfb6b6" stroke-width="1"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 33.59, -85.8)" filter="url(#mEET)">
+          <text id="mEET-2" data-name="mEET" transform="translate(26.72 110.7)" stroke="#000" stroke-width="1" font-size="24" font-family="AdamGorry-Lights" font-weight="300" letter-spacing="0.05em"><tspan x="0" y="0">mEET</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 522.58, 1266)" filter="url(#TargEt)">
+      <text id="TargEt-2" data-name="TargEt" transform="translate(15.11 84.58)" fill="#fff8d6" font-size="23" font-family="AdamGorry-Lights" font-weight="300" letter-spacing="0.035em"><tspan x="0" y="0">TargEt</tspan></text>
+    </g>
+    <g id="noun_Target_45374" transform="translate(550.221 1265.399)">
+      <path id="Path_5699" data-name="Path 5699" d="M30.373,0A30.373,30.373,0,1,0,60.747,30.373,30.395,30.395,0,0,0,30.373,0Zm0,2.848A27.526,27.526,0,1,1,2.848,30.373,27.5,27.5,0,0,1,30.373,2.848Zm0,21.831a5.7,5.7,0,1,0,5.7,5.7A5.7,5.7,0,0,0,30.373,24.678Z" transform="translate(0.602 0.602)" fill="#ecc70f"/>
+      <path id="Path_5700" data-name="Path 5700" d="M30.373,0A30.373,30.373,0,1,0,60.747,30.373,30.395,30.395,0,0,0,30.373,0Zm0,2.848A27.526,27.526,0,1,1,2.848,30.373,27.5,27.5,0,0,1,30.373,2.848Zm0,21.831a5.7,5.7,0,1,0,5.7,5.7A5.7,5.7,0,0,0,30.373,24.678Z" transform="translate(0.602 0.602)" fill="#ecc70f"/>
+    </g>
+  </g>
+</svg>

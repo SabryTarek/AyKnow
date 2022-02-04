@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.97" height="126.371" viewBox="0 0 116.97 126.371">
+  <defs>
+    <filter id="Path_2606" x="0" y="80.871" width="116.97" height="43.51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="rEWard" x="5.485" y="83.371" width="107" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#0a0101" flood-opacity="0.722"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="TargEt" x="6.114" y="57.583" width="105" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="A-target-icon" transform="translate(-521.582 -511)">
+    <g id="Group_3465" data-name="Group 3465" transform="translate(506.989 596.797)">
+      <g id="Group_1066" data-name="Group 1066" transform="translate(-19)">
+        <g transform="matrix(1, 0, 0, 1, 33.59, -85.8)" filter="url(#Path_2606)">
+          <path id="Path_2606-2" data-name="Path 2606" d="M4.249,0H93.721A4.25,4.25,0,0,1,97.97,4.251V20.259a4.25,4.25,0,0,1-4.249,4.251H4.249A4.25,4.25,0,0,1,0,20.259V4.251A4.25,4.25,0,0,1,4.249,0Z" transform="translate(9.5 90.37)" fill="#ecc70f" stroke="#bfb6b6" stroke-width="1"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 33.59, -85.8)" filter="url(#rEWard)">
+          <text id="rEWard-2" data-name="rEWard" transform="translate(15.48 109.37)" stroke="#000" stroke-width="1" font-size="21" font-family="AdamGorry-Lights" font-weight="300" letter-spacing="0.03em"><tspan x="0" y="0">rEWard</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 521.58, 511)" filter="url(#TargEt)">
+      <text id="TargEt-2" data-name="TargEt" transform="translate(15.11 84.58)" fill="#fff8d6" font-size="23" font-family="AdamGorry-Lights" font-weight="300" letter-spacing="0.035em"><tspan x="0" y="0">TargEt</tspan></text>
+    </g>
+    <g id="Path_5702" data-name="Path 5702" transform="translate(574.221 507)" fill="#ffdd1a">
+      <path d="M-42.242,77C-42.3,76.345-40.783,93.056-42.242,77Z" stroke="none"/>
+      <path d="M -42.24397659301758 76.98109436035156 C -42.24397659301758 76.98109436035156 -42.24397659301758 76.98110198974609 -42.24397659301758 76.98110961914062 C -42.24397659301758 76.98110198974609 -42.24397659301758 76.98109436035156 -42.24397659301758 76.98109436035156 Z M -42.24397659301758 76.98110961914062 C -42.24383163452148 76.99148559570312 -41.60746383666992 83.99237823486328 -41.60705947875977 83.99237823486328 C -41.60746383666992 83.99237823486328 -42.24383163452148 76.99148559570312 -42.24397659301758 76.98110961914062 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="noun_Target_45374" transform="translate(549.221 510.398)">
+      <path id="Path_5699" data-name="Path 5699" d="M30.373,0A30.373,30.373,0,1,0,60.747,30.373,30.395,30.395,0,0,0,30.373,0Zm0,2.848A27.526,27.526,0,1,1,2.848,30.373,27.5,27.5,0,0,1,30.373,2.848Zm0,21.831a5.7,5.7,0,1,0,5.7,5.7A5.7,5.7,0,0,0,30.373,24.678Z" transform="translate(0.602 0.602)" fill="#ecc70f"/>
+      <path id="Path_5700" data-name="Path 5700" d="M30.373,0A30.373,30.373,0,1,0,60.747,30.373,30.395,30.395,0,0,0,30.373,0Zm0,2.848A27.526,27.526,0,1,1,2.848,30.373,27.5,27.5,0,0,1,30.373,2.848Zm0,21.831a5.7,5.7,0,1,0,5.7,5.7A5.7,5.7,0,0,0,30.373,24.678Z" transform="translate(0.602 0.602)" fill="#ecc70f"/>
+    </g>
+  </g>
+</svg>

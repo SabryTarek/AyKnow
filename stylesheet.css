@@ -1,0 +1,753 @@
+:root
+{
+    --first-color:#160901;
+    --second-color:#FFF9DB;
+    --third-color: #FBDA1E;
+}
+
+body{
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+}
+header
+{
+    background-color: black;
+}
+.nav-icon img
+{
+    width:35px;
+}
+.nav-icon
+{
+    background-color: #373434;
+    width: 86px;
+    height: 43px;
+    list-style: none;
+    margin-left: 1px;
+}
+.contact
+{
+    border: #545135 solid 1px;
+    background-color: #241E1E;
+}
+.nav-icon:hover
+{
+    background-color: black;
+}
+@media only screen and (max-width: 991px) {
+    .nav-item
+    {
+        margin-bottom: 10px;
+    }
+}
+.sign-btn
+{
+    width:142px;
+    background-color: var(--third-color);
+    border: white solid 3px;
+    color: var(--third-color);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: x-large;
+    display: none;
+    font-family: 'rimouskisemibold';
+    letter-spacing: 2px;
+}
+.domino1
+{
+    background-image: url('imgs/Component\ 1\ –\ 1.svg');
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    align-content: center;
+    padding-top: 29px;
+}
+.padding-buttom
+{
+    padding-bottom: 200px;
+}
+.domino2
+{
+    background-image: url('imgs/Component\ 23-back.svg');
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.path-1
+{
+    position: absolute;
+    z-index: 5;
+    margin-top: 130px;
+}
+.square
+{
+    position: fixed;
+    top: 30%;
+    z-index: 6;
+}
+.first-head
+{
+    position: relative;
+    z-index: 7;
+    margin-bottom: 130px;
+}
+.second-head
+{
+    width: 420px;
+    height: 83px;
+    color: var(--first-color);
+    border: var(--third-color) solid 3px;
+    background-color: var(--second-color);
+    text-align: center;
+    line-height: 75px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+    display: block ;
+    z-index: 7;
+}
+.second-head::before
+{
+   display: block;
+   content: ' ';
+   height: 5px;
+   width: 44px;
+   border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+   background-color: var(--third-color);
+   position: absolute;
+   margin-top: -8px;
+   left: 45%;
+}
+.second-head::after
+{
+   display: block;
+   content: ' ';
+   height: 5px;
+   width: 44px;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   background-color: var(--third-color);
+   position: absolute;
+   margin-top: 3px;
+   left: 185px;
+}
+.pranch
+{
+    width: 50.5%;
+    margin-bottom: 3px;
+}
+.video
+{
+    position: relative;
+    z-index: 6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#acadimic,#jobs,#connection,#DiscouNts
+{
+    position: relative;
+    z-index: 6;
+}
+.dark
+{
+    color: #FBF2C0;
+    font-weight: lighter;
+}
+.station
+{
+    position: absolute;
+    z-index: 1;
+}
+.mask-group
+{
+    width: 45%;
+    display: block;
+}
+.center-img
+{
+    margin:auto; 
+}
+.small-icon
+{
+    height: 90px;
+}
+.p-head
+{
+    letter-spacing: 0.015px;
+    margin-top: 9px;
+    margin-bottom: 3px;
+}
+.text-p
+{
+    font-weight: bolder;
+    line-height: 20px;
+}
+.path-sec-5
+{
+    padding-right: 0;
+    margin-top: 5vh;
+}
+.working-steps
+{
+    width: 328px;
+    background-color: var(--second-color);
+    margin: auto;
+    position: relative;
+    display: block ;
+    z-index: 7;
+}
+.working-steps .steps-img
+{
+    width: 95px;
+}
+@media only screen and (max-width: 992px) {
+    .working-steps
+    {
+        margin-bottom: 0;
+        border-top: black solid 2px;
+        border-right: black solid 2px;
+        border-left: black solid 2px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .how-it-work .working-steps:nth-child(1)
+    {
+        width: 380px;
+    }
+    .how-it-work .working-steps:nth-child(2)
+    {
+        width: 400px;
+    }
+    .how-it-work .working-steps:nth-child(3)
+    {
+        width: 420px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .working-steps{margin-bottom: 90px;}
+}
+.span-numbering
+{
+    background-color: var(--third-color);
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #161000;
+    text-shadow: 0px 0px 3px#412F01;
+    font-size: 19px;
+    padding: 2px 15px ;
+    padding-top: 0;
+    margin-right: 5px;
+}
+.span-numbering1
+{
+    background-color: var(--third-color);
+    border: var(--first-color) solid 3px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #161000;
+    text-shadow: 0px 0px 3px#412F01;
+    font-size: 20px;
+}
+.working-steps p ,.working-steps img
+{
+    display: inline;
+
+}
+.working-steps p{margin-top: 5px;}
+.img-sec-5
+{
+    width: 105px;
+}
+.win-card
+{
+    color: var(--second-color);
+    border: #716F64 solid 3px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--first-color);
+    position: relative;
+    z-index: 7;
+    width: 438.66px;
+}
+.winCard-content-width
+{
+    width: 360px;
+    margin: auto;
+}
+.win-card h4 span
+{
+    color: var(--third-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+.win-card .winCard-content-width h4
+{
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 0.18px;
+    line-height: 44px;
+}
+.win-card hr
+{
+    background-color: white;
+    height: 0.0px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+.p-incard
+{
+    border-top: rgba(253, 253, 253,0.7) solid 1px;
+    border-bottom: rgba(253, 253, 253,0.7) solid 1px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-bottom: 35px;
+}
+.win-card div img
+{
+    display: block;
+    margin: auto;
+    width: 25%
+}
+.win-card .sections-label img ,.win-card .sections-label h4
+{
+    display: inline-block;
+}
+.win-card .sections-label img
+{
+    float: left;
+    width:25px;
+    margin-top: -2px;
+}
+.win-card .sections-label
+{
+    border: var(--second-color) solid 2px;
+    border-radius: 11px;
+    display: block;
+}
+.Privileges-head
+{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.win-card p
+{
+    color: var(--third-color);
+}
+/********************************************************/
+.screen
+{
+    height: 100%;
+}
+.sec2-img
+{
+    width: 80px;
+}
+.sec2-img2
+{
+    margin-top: 15vh;
+}
+.center-text
+{
+    text-align: center;
+}
+.svg-path
+{
+    position: absolute; 
+    z-index: 1; 
+    width: 100%;
+}
+.head
+{
+    text-transform: uppercase;
+    border: #E8C516 solid 3px;
+    border-radius: 11px;
+    box-shadow: 0px 0px 6px#FFD500;
+    background-color: #000000;
+    color: #FFF5C5;
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 52px;
+    text-align: center; 
+}
+.head-holder
+{
+    padding: 50px;
+    margin-bottom: 70px;
+}
+.title
+{
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border: #707070 solid 1px;
+    -webkit-text-stroke: 2px ;
+    -webkit-text-stroke-color: var(--first-color);
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.title-span
+{
+    -webkit-text-stroke: 2px ;
+    -webkit-text-stroke-color: #CCAE00;
+    color: var(--third-color);
+    border: none;
+    font-size: 38px;
+    line-height: 44px;
+}
+.Academic-text
+{
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.school-title
+{
+    background-color: #000000;
+    text-align: center;
+    border-radius: 22px;
+    border-color: #FFFFFF;
+    margin: auto;
+    margin-top: 70px;
+    width: fit-content;
+    width: -moz-fit-content;
+    font-size: 25px;
+    color: var(--third-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+}
+.school-title2
+{
+    font-size: 23px;
+    color: black;
+    letter-spacing: 1px;
+}
+.mark-components
+{
+    margin: auto;
+    display: flex;
+    height: 120px;
+}
+.holder-mark-components
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.school-title-p
+{
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: 18px;
+}
+.acadimic-icons-controls
+{
+    top: 33%;
+    bottom: unset;
+    margin-top: 23px;
+}
+.icon-p1
+{
+    color: #CAC08D;
+    text-align: center;
+    line-height: 20px;
+}
+.video-header
+{
+    border-top: #FFF9DB solid 1px;
+    border-bottom: #FFF9DB solid  1px;
+    color: #FFF9DB;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+}
+@media only screen and (max-width: 767px) {
+    
+    .secondHalf-header
+    {
+        margin-top: 50px;
+    }
+    .outer-border
+    {
+        background-color: var(--second-color);
+        border: var(--third-color) solid 2px;
+        padding-top: 15px;
+    }
+    .video-header
+    {
+        margin-top: 30px;
+        border-top: black solid 2px;
+        border-bottom: black solid  2px;
+        color: black;
+
+    }
+    #acadimic,#jobs,#connection,#DiscouNts
+    {
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .title
+    {
+        font-size: 28px;
+    }
+    .title-span
+    {
+        font-size: 33px;
+    }
+}
+.background-broun
+{
+    background-color: var(--first-color);
+}
+/*****************/
+.contact-info-holder
+{
+    background-color: #0A0909;
+    color: var(--third-color);
+    border-radius: 10px;
+    height: 75px;
+    margin-bottom: 35px;
+    font-size: 23px;
+}
+.model-row
+{
+    border: var(--third-color) solid 3px;
+    border-radius: 8px;
+    background-color: var(--first-color);
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.model-row label
+{
+    color: var(--first-color);
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #FFDB7E;
+    align-items: center;
+    font-size: 20px;
+}
+.model-label
+{
+    margin-bottom: 1px;
+}
+.data-feild
+{
+    width: 100%;
+    align-items: flex-end;
+    padding: 5px;
+}
+.modal-body-head
+{
+    color: var(--third-color);
+    text-align: center;
+}
+.modal-content
+{
+    background-color: #211801;
+    border: #61390C solid 2px ;
+    border-radius: 14px;
+    padding-bottom: 50px;
+}
+.header-back
+{
+    background-color: rgba(245, 208, 0,0.6);
+    border-radius: 10px;
+    width: 280px;
+    padding: 8px;
+    position: absolute;
+    top: -35px;
+}
+.header-back h3
+{
+    background-color: var(--third-color);
+    border: var(--first-color) solid 4px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.2);
+    text-shadow: 0px 0px 3px #412F01;
+    padding: 4px;
+    margin-bottom: 0px;
+}
+.modal-btn
+{
+    background-color: #332605;
+    border: #000000 solid 2px;
+    color: var(--third-color);
+    width: 150px;
+}
+.modal-btn:hover
+{
+    background-color: #5e4917;
+    color: var(--third-color);
+}
+.final-txt 
+{
+    color: var(--third-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.donate-now 
+{
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+    align-items: center;
+}
+.donate-now li 
+{
+    float: left;
+    position: relative;
+    width: 155px;
+    height: 46px;
+
+}
+.donate-now label,
+.donate-now input 
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.donate-now input[type="radio"] 
+{
+    opacity: 0.01;
+    z-index: 100;
+}
+.donate-now label 
+{
+    padding: 5px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    z-index: 90;
+    text-align: center;
+    color: var(--third-color);
+    border-radius: 15px;
+    background: #332C1C;
+    font-weight: bold;
+    margin: 5px;
+}
+.donate-now label:hover 
+{
+    background: #584e35;
+}
+.donate-now input[type="radio"]:checked+label,
+.Checked+label 
+{
+    background: #807352;
+}
+
+.hr-path
+{
+    background-color: var(--third-color);
+    width:80%;
+    height: 3px;
+}
+.path
+{
+    margin-top: -43px;
+    position: relative;
+}
+.join-modal-btn
+{
+    background-color: #FFE13D;
+    width: 280px;
+    height: 85px;
+    border: white solid 6px;
+    border-radius: 74px;
+    font-size: 45px;
+    position: absolute;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0,0.3);
+    top: 15%;
+    z-index: 6;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0,0.4);
+    letter-spacing: 7px;
+}
+.join-modal-btn:hover
+{
+    background-color: var(--first-color);
+    border-color: var(--third-color);
+    color: #000000;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #FBDA1E;
+    letter-spacing: 7px
+}
+.has-error
+{
+    color: tomato;
+}
+  /*************************************************************************************************/
+.hide
+{
+    display: none;
+}
+
+
+@font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('fonts/webfontkit-20210711-063647/champagne__limousines-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210711-063647/champagne__limousines-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rimouskisemibold';
+    src: url('fonts/rimouski/rimouski_sb-webfont.woff2') format('woff2'),
+         url('fonts/rimouski/rimouski_sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Insaniburger";
+    src: url("fonts/insaniburger/Insanibu.woff2") format("woff2"),
+         url("fonts/insaniburger/Insanibu.woff") format("woff");
+  }
+  @font-face {
+    font-family: "lithos-pro";
+    src: url("fonts/lithos-pro/LithosPro-Regular.woff2") format("woff2"),
+         url("fonts/lithos-pro/LithosPro-Regular.woff") format("woff");
+  }
+.third-font
+{
+    font-family: 'Quicksand', sans-serif;
+}
+.second-font
+{
+    font-family: 'rimouskisemibold';
+}
+.fourth-font
+{
+    font-family: 'Insaniburger';
+}
+.fifth-font
+{
+    font-family: 'lithos-pro';
+}
+.champagne-font
+{
+    font-family: 'champagne__limousinesregular';
+}
+

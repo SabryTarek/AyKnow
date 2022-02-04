@@ -1,0 +1,32 @@
+<svg id="Component_7_10" data-name="Component 7 – 10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297.934" height="110.046" viewBox="0 0 297.934 110.046">
+  <defs>
+    <filter id="know" x="118.507" y="6.046" width="153" height="104" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="AY" x="32.427" y="2.954" width="112" height="95" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Path_5552" data-name="Path 5552" fill="#f2ce22">
+    <path d="M 295.4342346191406 105.5 L 2.500001907348633 105.5 L 2.500001907348633 2.5 L 295.4342346191406 2.5 L 295.4342346191406 105.5 Z" stroke="none"/>
+    <path d="M 5 5 L 5 103 L 292.9342346191406 103 L 292.9342346191406 5 L 5 5 M 0 0 L 297.9342346191406 0 L 297.9342346191406 108 L 0 108 L 0 0 Z" stroke="none" fill="#fff5c4"/>
+  </g>
+  <g id="Group_3151" data-name="Group 3151" transform="translate(43.427 13.954)">
+    <g id="Group_2928" data-name="Group 2928" transform="translate(0 0)">
+      <g transform="matrix(1, 0, 0, 1, -43.43, -13.95)" filter="url(#know)">
+        <text id="know-2" data-name="know" transform="translate(134.51 79.05)" stroke="#140f0f" stroke-width="7" font-size="60" font-family="OstrichSansRounded-Medium, Ostrich Sans Rounded" font-weight="500" letter-spacing="0.095em"><tspan x="0" y="0">know</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -43.43, -13.95)" filter="url(#AY)">
+        <text id="AY-2" data-name="AY" transform="translate(43.43 66.95)" stroke="#000" stroke-width="2" font-size="69" font-family="Canonatia" letter-spacing="-0.096em"><tspan x="0" y="0">AY</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

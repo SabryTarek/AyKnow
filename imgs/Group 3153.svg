@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112.2" height="54.968" viewBox="0 0 112.2 54.968">
+  <defs>
+    <filter id="know" x="36.2" y="0.968" width="76" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="AY" x="0" y="0" width="57.4" height="49.4" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3153" data-name="Group 3153" transform="translate(-67.347 -5.927)">
+    <g id="Group_3152" data-name="Group 3152" transform="translate(76.547 15.127)">
+      <g transform="matrix(1, 0, 0, 1, -9.2, -9.2)" filter="url(#know)">
+        <text id="know-2" data-name="know" transform="translate(48.2 36.97)" fill="#ffe44e" stroke="#f5db4b" stroke-width="3" font-size="25" font-family="OstrichSansRounded-Medium, Ostrich Sans Rounded" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">know</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -9.2, -9.2)" filter="url(#AY)">
+        <text id="AY-2" data-name="AY" transform="translate(9.2 31.2)" fill="#ffe44e" stroke="#ffe44e" stroke-width="0.2" font-size="29" font-family="Canonatia" letter-spacing="-0.05em"><tspan x="0" y="0">AY</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

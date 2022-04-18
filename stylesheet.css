@@ -1,3 +1,18 @@
+@media only screen and (max-width: 410px)and (orientation: portrait) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        overflow-x: scroll;
+    }
+}
+
+
 :root
 {
     --first-color:#160901;
@@ -750,4 +765,3 @@ header
 {
     font-family: 'champagne__limousinesregular';
 }
-
